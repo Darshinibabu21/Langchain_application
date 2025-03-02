@@ -12,7 +12,7 @@ This project builds a **conversational AI** that can answer queries about a PDF 
 
 ## ** Required Files**  
 - **`main.py`** → Main script to process the document and handle queries.  
-- **`docker_article.pdf`** → The PDF document to analyze (place in the project folder).  
+- **`docker_article.pdf`** → The PDF document to analyze .  
 - **`.env`** → Stores the OpenAI API key.  
 - **`requirements.txt`** → List of dependencies.  
 - **`faiss_index/`** → Directory where FAISS vector database is stored.  
@@ -36,14 +36,11 @@ pip install -r requirements.txt
 Create a `.env` file in the project directory and add:  
 ```env
 OPENAI_API_KEY=your_openai_api_key_here
-```
+```  
 
-### **4️⃣ Upload Your PDF File**  
-Place **`docker_article.pdf`** in the project folder.  
-
-### **5️⃣ Run the Script**  
+### **4️⃣ Run the Script**  
 ```bash
-python main.py
+streamlit run main.py
 ```
 
 ---
